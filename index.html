@@ -3,6 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&display=swap"
+			rel="stylesheet" />
 		<link rel="stylesheet" href="./css/main.css" />
 
 		<link
@@ -16,8 +21,19 @@
 
 	<body>
 		<header class="header">
-			<h3 class="company-name">loopstudios</h3>
-			<img src="./images/icon-hamburger.svg" alt="" class="burger-btn" />
+			<h3 class="header__company company-name">loopstudios</h3>
+			<div class="header__burger-btn">
+				<img
+					src="./images/icon-hamburger.svg"
+					alt="hamburger navigation"
+					class="header__burger-icon" />
+			</div>
+
+			<div class="header__img">
+				<div class="header__text">
+					<h1>Immersive experiences that deliver</h1>
+				</div>
+			</div>
 
 			<nav class="nav nav__mobile">
 				<a href="#" class="nav__link">About</a>
@@ -34,15 +50,10 @@
 				<a href="#" class="nav__link">Products</a>
 				<a href="#" class="nav__link">Support</a>
 			</nav>
-
-			<img
-				src="./images/mobile/image-hero.jpg"
-				alt="player in VR glasses"
-				class="header__img" />
-			<h1 class="header__text">Immersive experiences that deliver</h1>
 		</header>
 
-		<section class="about">
+		<!-- <section class="about">
+			<div class="wrapper">
 			<img
 				src="./images/mobile/image-interactive.jpg"
 				alt="Player with vr glasses"
@@ -53,6 +64,7 @@
 				companies around the globe. Our award-winning creations have transformed
 				businesses through digital experiences that bind to their brand.
 			</p>
+		</div>
 		</section>
 
 		<section class="products" id="products">
@@ -154,6 +166,6 @@
 			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 				>Frontend Mentor</a
 			>. Coded by <a href="https://github.com/gabatk">gabatk</a>.
-		</div>
+		</div> -->
 	</body>
 </html>
