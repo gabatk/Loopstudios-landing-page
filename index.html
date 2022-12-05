@@ -21,31 +21,30 @@
 
 	<body>
 		<header class="header">
-			<div class="wrapper header__main-text">
-			<h3 class="header__company company-name">loopstudios</h3>
-			<div class="header__burger-btn">
-				<img
-					src="./images/icon-hamburger.svg"
-					alt="hamburger navigation"
-					class="header__burger-icon" />
+			<div class="header__main-text">
+				<h3 class="header__company company-name">loopstudios</h3>
+				<div class="header__burger-btn">
+					<img
+						src="./images/icon-hamburger.svg"
+						alt="hamburger navigation"
+						class="header__burger-icon" />
+				</div>
+				<nav class="nav nav__mobile">
+					<a href="#" class="nav__mobile-link">About</a>
+					<a href="#" class="nav__mobile-link">Careers</a>
+					<a href="#" class="nav__mobile-link">Events</a>
+					<a href="#" class="nav__mobile-link">Products</a>
+					<a href="#" class="nav__mobile-link">Support</a>
+				</nav>
+
+				<nav class="nav nav__desktop">
+					<a href="#about" class="nav__desktop-link">About</a>
+					<a href="#" class="nav__desktop-link">Careers</a>
+					<a href="#" class="nav__desktop-link">Events</a>
+					<a href="#" class="nav__desktop-link">Products</a>
+					<a href="#" class="nav__desktop-link">Support</a>
+				</nav>
 			</div>
-			<nav class="nav nav__mobile">
-				<a href="#" class="nav__mobile-link">About</a>
-				<a href="#" class="nav__mobile-link">Careers</a>
-				<a href="#" class="nav__mobile-link">Events</a>
-				<a href="#" class="nav__mobile-link">Products</a>
-				<a href="#" class="nav__mobile-link">Support</a>
-			</nav>
-
-			<nav class="nav nav__desktop">
-				<a href="#" class="nav__desktop-link">About</a>
-				<a href="#" class="nav__desktop-link">Careers</a>
-				<a href="#" class="nav__desktop-link">Events</a>
-				<a href="#" class="nav__desktop-link">Products</a>
-				<a href="#" class="nav__desktop-link">Support</a>
-			</nav>
-		</div>
-
 
 			<div class="header__img">
 				<div class="header__text">
@@ -54,22 +53,31 @@
 			</div>
 		</header>
 
-		<!-- <section class="about">
-			<div class="wrapper">
-			<img
-				src="./images/mobile/image-interactive.jpg"
-				alt="Player with vr glasses"
-				class="about_img" />
-			<p class="about__info">
-				The leader in interactive VR Founded in 2011, Loopstudios has been
-				producing world-class virtual reality projects for some of the best
-				companies around the globe. Our award-winning creations have transformed
-				businesses through digital experiences that bind to their brand.
-			</p>
+		<div class="wrapper">
+			<section class="about" id="about">
+				<img
+					src="./images/mobile/image-interactive.jpg"
+					alt="Player with vr glasses"
+					class="about__mobile-img" />
+				<img
+					src="./images/desktop/image-interactive.jpg"
+					alt="Player with vr glasses"
+					class="about__desktop-img" />
+				<div class="about__info">
+					<h2 class="about__info-title section__title">
+						The leader in interactive VR
+					</h2>
+					<p class="about__info-text">
+						Founded in 2011, Loopstudios has been producing world-class virtual
+						reality projects for some of the best companies around the globe.
+						Our award-winning creations have transformed businesses through
+						digital experiences that bind to their brand.
+					</p>
+				</div>
+			</section>
 		</div>
-		</section>
 
-		<section class="products" id="products">
+		<!-- <section class="products" id="products">
 			<h2 class="section__title">Our creations</h2>
 			<button class="products__btn">See all</button>
 
@@ -133,9 +141,9 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
-		<footer class="footer">
+		<!-- <footer class="footer">
 			<h3 class="company-name">loopstudios</h3>
 			<p class="footer__link">About</p>
 			<p class="footer__link">Careers</p>

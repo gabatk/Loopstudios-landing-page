@@ -27,6 +27,17 @@ body {
 	width: 100%;
 }
 
+.section {
+	&__title {
+		padding: 1em;
+		color: colors.$black;
+		font-family: 'Alata', sans-serif;
+		font-size: 3rem;
+		font-weight: 200;
+		text-transform: uppercase;
+	}
+}
+
 .header {
 	position: relative;
 	height: 100vh;
@@ -107,5 +118,26 @@ body {
 
 	&__desktop {
 		display: none;
+	}
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	padding: 40px;
+	margin-top: 100px;
+
+	&__desktop {
+		&-img {
+			display: none;
+		}
+	}
+
+	&__info {
+		&-text {
+			font-size: 2rem;
+		}
 	}
 }

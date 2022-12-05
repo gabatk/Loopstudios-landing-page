@@ -24,6 +24,15 @@ body {
   width: 100%;
 }
 
+.section__title {
+  padding: 1em;
+  color: rgb(0, 0, 0);
+  font-family: "Alata", sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
 .header {
   position: relative;
   height: 100vh;
@@ -87,7 +96,25 @@ body {
   display: none;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 100px;
+}
+.about__desktop-img {
+  display: none;
+}
+.about__info-text {
+  font-size: 2rem;
+}
+
 @media (min-width: 768px) {
+  .header {
+    height: 40vh;
+  }
   .header__img {
     height: 40vh;
     background-image: url("../images/desktop/image-hero.jpg");
@@ -103,6 +130,7 @@ body {
   .header__main-text {
     position: absolute;
     top: 5%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 3fr;
   }
@@ -111,16 +139,16 @@ body {
     grid-column: 1/2;
     padding: 0 1em;
   }
-}
-.nav__desktop {
-  display: inline;
-  text-align: right;
-  grid-column: 2/3;
-  margin-right: 1.5em;
-}
-.nav__desktop-link {
-  padding: 1em;
-  font-size: 1rem;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+  .nav__desktop {
+    display: inline;
+    text-align: right;
+    grid-column: 2/3;
+    margin-right: 1.5em;
+  }
+  .nav__desktop-link {
+    padding: 1em;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
 }/*# sourceMappingURL=main.css.map */
