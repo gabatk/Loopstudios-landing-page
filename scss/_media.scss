@@ -56,4 +56,37 @@
 			}
 		}
 	}
+
+	.about {
+		position: relative;
+		top: 0;
+		left: 0;
+		padding: 4em;
+
+		&__mobile {
+			&-img {
+				display: none;
+			}
+		}
+
+		&__desktop {
+			&-img {
+				display: block;
+				max-width: 700px;
+			}
+		}
+
+		&__info {
+			position: absolute;
+			bottom: 4em;
+			right: 4em;
+			max-width: 40%;
+			padding: 2em;
+			text-align: start;
+			background-color: colors.$white;
+			&-text {
+				font-size: 2rem;
+			}
+		}
+	}
 }
