@@ -119,12 +119,86 @@ body {
   gap: 30px;
 }
 .product__box-item1 {
+  position: relative;
   height: 300px;
   background-image: url("../images/mobile/image-deep-earth.jpg");
   background-size: cover;
   background-position: center;
   grid-column: 1/9;
   grid-row: 1/2;
+}
+.product__box-item2 {
+  position: relative;
+  height: 300px;
+  background-image: url("../images/mobile/image-night-arcade.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/9;
+  grid-row: 2/3;
+}
+.product__box-item3 {
+  position: relative;
+  height: 300px;
+  background-image: url("../images/mobile/image-soccer-team.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/9;
+  grid-row: 3/4;
+}
+.product__box-item4 {
+  position: relative;
+  height: 300px;
+  background-image: url("../images/mobile/image-grid.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/9;
+  grid-row: 4/5;
+}
+.product__box-item5 {
+  position: relative;
+  height: 300px;
+  background-image: url("../images/mobile/image-from-above.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/9;
+  grid-row: 5/6;
+}
+.product__box-item6 {
+  position: relative;
+  height: 300px;
+  background-image: url("../images/mobile/image-pocket-borealis.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/9;
+  grid-row: 6/7;
+}
+.product__box-item7 {
+  position: relative;
+  height: 300px;
+  background-image: url("../images/mobile/image-curiosity.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/9;
+  grid-row: 7/8;
+}
+.product__box-item8 {
+  position: relative;
+  height: 300px;
+  background-image: url("../images/mobile/image-fisheye.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/9;
+  grid-row: 8/9;
+}
+.product__box-title {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  font-family: "Alata", sans-serif;
+  font-size: 4rem;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
