@@ -144,95 +144,122 @@ body {
 	}
 }
 
-.product {
-	&__box {
-		display: grid;
-		grid-template-columns: repeat(8, 1fr);
-		grid-template-rows: repeat(8, 1fr);
-		gap: 30px;
+.products {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4em 3em 6em 3em;
 
-		&-item1 {
-			@include mixins.productBox(
-				'../images/mobile/image-deep-earth.jpg',
-				1,
-				9,
-				1,
-				2
-			);
-		}
+	.product {
+		&__box {
+			display: grid;
+			grid-template-columns: repeat(8, 1fr);
+			grid-template-rows: repeat(8, 1fr);
+			gap: 30px;
+			margin-bottom: 3em;
 
-		&-item2 {
-			@include mixins.productBox(
-				'../images/mobile/image-night-arcade.jpg',
-				1,
-				9,
-				2,
-				3
-			);
-		}
+			&-item1 {
+				@include mixins.productBox(
+					'../images/mobile/image-deep-earth.jpg',
+					1,
+					9,
+					1,
+					2
+				);
+			}
 
-		&-item3 {
-			@include mixins.productBox(
-				'../images/mobile/image-soccer-team.jpg',
-				1,
-				9,
-				3,
-				4
-			);
-		}
+			&-item2 {
+				@include mixins.productBox(
+					'../images/mobile/image-night-arcade.jpg',
+					1,
+					9,
+					2,
+					3
+				);
+			}
 
-		&-item4 {
-			@include mixins.productBox('../images/mobile/image-grid.jpg', 1, 9, 4, 5);
-		}
+			&-item3 {
+				@include mixins.productBox(
+					'../images/mobile/image-soccer-team.jpg',
+					1,
+					9,
+					3,
+					4
+				);
+			}
 
-		&-item5 {
-			@include mixins.productBox(
-				'../images/mobile/image-from-above.jpg',
-				1,
-				9,
-				5,
-				6
-			);
-		}
+			&-item4 {
+				@include mixins.productBox(
+					'../images/mobile/image-grid.jpg',
+					1,
+					9,
+					4,
+					5
+				);
+			}
 
-		&-item6 {
-			@include mixins.productBox(
-				'../images/mobile/image-pocket-borealis.jpg',
-				1,
-				9,
-				6,
-				7
-			);
-		}
+			&-item5 {
+				@include mixins.productBox(
+					'../images/mobile/image-from-above.jpg',
+					1,
+					9,
+					5,
+					6
+				);
+			}
 
-		&-item7 {
-			@include mixins.productBox(
-				'../images/mobile/image-curiosity.jpg',
-				1,
-				9,
-				7,
-				8
-			);
-		}
+			&-item6 {
+				@include mixins.productBox(
+					'../images/mobile/image-pocket-borealis.jpg',
+					1,
+					9,
+					6,
+					7
+				);
+			}
 
-		&-item8 {
-			@include mixins.productBox(
-				'../images/mobile/image-fisheye.jpg',
-				1,
-				9,
-				8,
-				9
-			);
+			&-item7 {
+				@include mixins.productBox(
+					'../images/mobile/image-curiosity.jpg',
+					1,
+					9,
+					7,
+					8
+				);
+			}
+
+			&-item8 {
+				@include mixins.productBox(
+					'../images/mobile/image-fisheye.jpg',
+					1,
+					9,
+					8,
+					9
+				);
+			}
+			&-title {
+				position: absolute;
+				bottom: 1em;
+				left: 1em;
+				font-family: 'Alata', sans-serif;
+				font-size: 4rem;
+				font-weight: 200;
+				color: colors.$white;
+				text-transform: uppercase;
+			}
 		}
-		&-title {
-			position: absolute;
-			bottom: 1em;
-			left: 1em;
-			font-family: 'Alata', sans-serif;
-			font-size: 4rem;
-			font-weight: 200;
-			color: colors.$white;
-			text-transform: uppercase;
-		}
+	}
+
+	&__btn {
+		position: absolute;
+		bottom: 2em;
+		white-space: nowrap;
+		padding: 1em 2em;
+		background: none;
+
+		font-size: 2rem;
+		font-weight: bold;
+		text-transform: uppercase;
 	}
 }

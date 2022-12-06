@@ -112,13 +112,21 @@ body {
   font-size: 2rem;
 }
 
-.product__box {
+.products {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em 3em 6em 3em;
+}
+.products .product__box {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
   gap: 30px;
+  margin-bottom: 3em;
 }
-.product__box-item1 {
+.products .product__box-item1 {
   position: relative;
   height: 300px;
   background-image: url("../images/mobile/image-deep-earth.jpg");
@@ -127,7 +135,7 @@ body {
   grid-column: 1/9;
   grid-row: 1/2;
 }
-.product__box-item2 {
+.products .product__box-item2 {
   position: relative;
   height: 300px;
   background-image: url("../images/mobile/image-night-arcade.jpg");
@@ -136,7 +144,7 @@ body {
   grid-column: 1/9;
   grid-row: 2/3;
 }
-.product__box-item3 {
+.products .product__box-item3 {
   position: relative;
   height: 300px;
   background-image: url("../images/mobile/image-soccer-team.jpg");
@@ -145,7 +153,7 @@ body {
   grid-column: 1/9;
   grid-row: 3/4;
 }
-.product__box-item4 {
+.products .product__box-item4 {
   position: relative;
   height: 300px;
   background-image: url("../images/mobile/image-grid.jpg");
@@ -154,7 +162,7 @@ body {
   grid-column: 1/9;
   grid-row: 4/5;
 }
-.product__box-item5 {
+.products .product__box-item5 {
   position: relative;
   height: 300px;
   background-image: url("../images/mobile/image-from-above.jpg");
@@ -163,7 +171,7 @@ body {
   grid-column: 1/9;
   grid-row: 5/6;
 }
-.product__box-item6 {
+.products .product__box-item6 {
   position: relative;
   height: 300px;
   background-image: url("../images/mobile/image-pocket-borealis.jpg");
@@ -172,7 +180,7 @@ body {
   grid-column: 1/9;
   grid-row: 6/7;
 }
-.product__box-item7 {
+.products .product__box-item7 {
   position: relative;
   height: 300px;
   background-image: url("../images/mobile/image-curiosity.jpg");
@@ -181,7 +189,7 @@ body {
   grid-column: 1/9;
   grid-row: 7/8;
 }
-.product__box-item8 {
+.products .product__box-item8 {
   position: relative;
   height: 300px;
   background-image: url("../images/mobile/image-fisheye.jpg");
@@ -190,7 +198,7 @@ body {
   grid-column: 1/9;
   grid-row: 8/9;
 }
-.product__box-title {
+.products .product__box-title {
   position: absolute;
   bottom: 1em;
   left: 1em;
@@ -198,6 +206,16 @@ body {
   font-size: 4rem;
   font-weight: 200;
   color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.products__btn {
+  position: absolute;
+  bottom: 2em;
+  white-space: nowrap;
+  padding: 1em 2em;
+  background: none;
+  font-size: 2rem;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
