@@ -126,62 +126,6 @@ body {
   grid-column: 1/9;
   grid-row: 1/2;
 }
-.product__box-item2 {
-  height: 300px;
-  background-image: url("../images/mobile/image-night-arcade.jpg");
-  background-size: cover;
-  background-position: center;
-  grid-column: 1/9;
-  grid-row: 2/3;
-}
-.product__box-item3 {
-  height: 300px;
-  background-image: url("../images/mobile/image-soccer-team.jpg");
-  background-size: cover;
-  background-position: center;
-  grid-column: 1/9;
-  grid-row: 3/4;
-}
-.product__box-item4 {
-  height: 300px;
-  background-image: url("../images/mobile/image-grid.jpg");
-  background-size: cover;
-  background-position: center;
-  grid-column: 1/9;
-  grid-row: 4/5;
-}
-.product__box-item5 {
-  height: 300px;
-  background-image: url("../images/mobile/image-from-above.jpg");
-  background-size: cover;
-  background-position: center;
-  grid-column: 1/9;
-  grid-row: 5/6;
-}
-.product__box-item6 {
-  height: 300px;
-  background-image: url("../images/mobile/image-pocket-borealis.jpg");
-  background-size: cover;
-  background-position: center;
-  grid-column: 1/9;
-  grid-row: 6/7;
-}
-.product__box-item7 {
-  height: 300px;
-  background-image: url("../images/mobile/image-curiosity.jpg");
-  background-size: cover;
-  background-position: center;
-  grid-column: 1/9;
-  grid-row: 7/8;
-}
-.product__box-item8 {
-  height: 300px;
-  background-image: url("../images/mobile/image-fisheye.jpg");
-  background-size: cover;
-  background-position: center;
-  grid-column: 1/9;
-  grid-row: 8/9;
-}
 
 @media (min-width: 768px) {
   .header {
