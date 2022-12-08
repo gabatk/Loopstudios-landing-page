@@ -269,12 +269,14 @@ body {
 		cursor: pointer;
 	}
 }
+.support {
+	background-color: colors.$black;
+}
 
 .footer {
 	text-align: center;
 	font-size: 2rem;
 	line-height: 2em;
-	background-color: colors.$black;
 	color: colors.$white;
 
 	&__company {
