@@ -50,6 +50,7 @@ body {
 }
 .header__burger-btn {
   right: 2%;
+  cursor: pointer;
 }
 .header__burger-icon {
   height: 26px;
@@ -220,6 +221,7 @@ body {
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -291,13 +293,6 @@ body {
   }
   .about__info-text {
     font-size: 2rem;
-  }
-  .products .product__box {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    gap: 30px;
-    margin-bottom: 3em;
   }
   .products .product__box-item1 {
     position: relative;
@@ -378,9 +373,18 @@ body {
   .products .product__box-title:hover {
     color: rgb(228, 69, 61);
   }
-  .products__btn {
+  .products__top {
     position: relative;
-    top: 0;
+    margin-bottom: 30px;
+  }
+  .products__top-btn {
+    position: absolute;
+    top: 30px;
     bottom: auto;
+    right: 0;
+  }
+  .products__top-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
   }
 }/*# sourceMappingURL=main.css.map */

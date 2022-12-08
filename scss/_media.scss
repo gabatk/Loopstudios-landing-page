@@ -10,7 +10,7 @@
 		}
 	}
 	.header {
-				height: 40vh;
+		height: 40vh;
 
 		&__img {
 			height: 40vh;
@@ -101,12 +101,6 @@
 	.products {
 		.product {
 			&__box {
-				display: grid;
-				grid-template-columns: repeat(8, 1fr);
-				grid-template-rows: repeat(8, 1fr);
-				gap: 30px;
-				margin-bottom: 3em;	
-
 				&-item1 {
 					@include mixins.productBox(
 						'../images/desktop/image-deep-earth.jpg',
@@ -197,13 +191,21 @@
 			}
 		}
 
-		&__btn {
+		&__top {
 			position: relative;
-			top: 0;
-			bottom: auto;
-			
-			
-		
+			margin-bottom: 30px;
+
+			&-btn {
+				position: absolute;
+				top: 30px;
+				bottom: auto;
+				right: 0;
+
+				&:hover {
+					color: colors.$white;
+					background-color: colors.$black;
+				}
+			}
 		}
 	}
 }

@@ -60,6 +60,7 @@ body {
 	&__burger {
 		&-btn {
 			right: 2%;
+			cursor: pointer;
 		}
 
 		&-icon {
@@ -262,5 +263,6 @@ body {
 		font-size: 2rem;
 		font-weight: bold;
 		text-transform: uppercase;
+		cursor: pointer;
 	}
 }
