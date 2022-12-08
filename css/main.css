@@ -27,7 +27,7 @@ body {
 .section__title {
   padding: 1em;
   color: rgb(0, 0, 0);
-  justify-content: center;
+  text-align: center;
   font-family: "Alata", sans-serif;
   font-size: 4rem;
   font-weight: 200;
@@ -213,9 +213,14 @@ body {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
-.products__btn {
+.products__top {
+  display: flex;
+  justify-content: center;
+}
+.products__top-btn {
   position: absolute;
   bottom: 2em;
+  letter-spacing: 2px;
   padding: 1em 2em;
   background: none;
   font-size: 2rem;
@@ -375,7 +380,12 @@ body {
   }
   .products__top {
     position: relative;
-    margin-bottom: 30px;
+    padding: 80px 0;
+  }
+  .products__top-title {
+    top: 0;
+    position: absolute;
+    left: 0;
   }
   .products__top-btn {
     position: absolute;

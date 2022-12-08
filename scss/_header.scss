@@ -15,7 +15,6 @@ html {
 }
 
 body {
-	// font-family: 'Alata', sans-serif;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.6rem;
 	color: colors.$dark-gray;
@@ -32,7 +31,7 @@ body {
 	&__title {
 		padding: 1em;
 		color: colors.$black;
-		justify-content: center;
+		text-align: center;
 		font-family: 'Alata', sans-serif;
 		font-size: 4rem;
 		font-weight: 200;
@@ -99,7 +98,6 @@ body {
 
 .nav {
 	&__mobile {
-		display: none;
 		// position: absolute;
 		// top: 0;
 		// bottom: 0;
@@ -109,6 +107,7 @@ body {
 		// flex-direction: column;
 		// justify-content: center;
 		// background-color: colors.$black;
+		display: none;
 
 		&-link {
 			padding: 0.5em 1em;
@@ -161,8 +160,8 @@ body {
 			gap: 30px;
 			margin-bottom: 3em;
 			cursor: pointer;
-		
-						&-item1 {
+
+			&-item1 {
 				@include mixins.productBox(
 					'../images/mobile/image-deep-earth.jpg',
 					1,
@@ -170,7 +169,6 @@ body {
 					1,
 					2
 				);
-		
 			}
 
 			&-item2 {
@@ -254,10 +252,15 @@ body {
 			}
 		}
 	}
+	&__top {
+		display: flex;
+		justify-content: center;
+	}
 
-	&__btn {
+	&__top-btn {
 		position: absolute;
 		bottom: 2em;
+		letter-spacing: 2px;
 		padding: 1em 2em;
 		background: none;
 		font-size: 2rem;
