@@ -269,3 +269,26 @@ body {
 		cursor: pointer;
 	}
 }
+
+.footer {
+	text-align: center;
+	font-size: 2rem;
+	line-height: 2em;
+	background-color: colors.$black;
+	color: colors.$white;
+
+	&__company {
+		padding: 2.5em 0 1.5em 0;
+		font-size: 4rem;
+	}
+
+	&__icon {
+		height: 4em;
+		padding: 30px 10px 15px 10px;
+	}
+
+	&__copyright {
+		padding-bottom: 3em;
+		color: colors.$gray;
+	}
+}
