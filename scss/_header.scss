@@ -32,7 +32,7 @@ body {
 	&__title {
 		padding: 1em;
 		color: colors.$black;
-		text-align: center;
+		justify-content: center;
 		font-family: 'Alata', sans-serif;
 		font-size: 4rem;
 		font-weight: 200;
@@ -138,6 +138,7 @@ body {
 	}
 
 	&__info {
+		max-height: 600px;
 		&-text {
 			font-size: 2rem;
 		}
@@ -158,8 +159,9 @@ body {
 			grid-template-rows: repeat(8, 1fr);
 			gap: 30px;
 			margin-bottom: 3em;
-
-			&-item1 {
+			cursor: pointer;
+		
+						&-item1 {
 				@include mixins.productBox(
 					'../images/mobile/image-deep-earth.jpg',
 					1,
@@ -167,6 +169,7 @@ body {
 					1,
 					2
 				);
+		
 			}
 
 			&-item2 {
@@ -254,7 +257,6 @@ body {
 	&__btn {
 		position: absolute;
 		bottom: 2em;
-		white-space: nowrap;
 		padding: 1em 2em;
 		background: none;
 		font-size: 2rem;
