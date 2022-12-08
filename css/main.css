@@ -43,7 +43,7 @@ body {
   position: absolute;
   padding: 1em;
   z-index: 5;
-  top: 3%;
+  top: 1em;
 }
 .header__company {
   color: rgb(255, 255, 255);

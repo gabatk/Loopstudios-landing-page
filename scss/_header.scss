@@ -43,13 +43,13 @@ body {
 	position: relative;
 	height: 100vh;
 	font-size: 3rem;
-
+	
 	&__company,
 	&__burger-btn {
 		position: absolute;
 		padding: 1em;
 		z-index: 5;
-		top: 3%;
+		top: 1em;
 	}
 
 	&__company {
