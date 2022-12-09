@@ -266,6 +266,26 @@
 			right: 0;
 		}
 
+		// &__icon {
+			// &::before {
+			// 	opacity: 1;
+			// 	position: absolute;
+			// 	bottom: 30px;
+			// 	left: 50%;
+			// 	right: 50%;
+			// 	transform: translateX(-50%);
+			// 	content: '';
+			// 	border-bottom: 1px solid colors.$white;
+			// 	width: 20px; }
+			// 	@include mixins.hoverEffects;
+			// }
+			// &:hover {
+			// 	&::before {
+			// 		opacity: 1;
+			// 	}
+			// }
+		// }
+
 		&__copyright {
 			text-align: right;
 			color: colors.$gray;
