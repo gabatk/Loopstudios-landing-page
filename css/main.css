@@ -274,8 +274,8 @@ body {
     display: none;
   }
   .header__main-text {
-    position: absolute;
-    top: 5%;
+    position: relative;
+    top: 1em;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 3fr;

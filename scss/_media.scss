@@ -29,8 +29,8 @@
 			}
 		}
 		&__main-text {
-			position: absolute;
-			top: 5%;
+			position: relative;
+			top: 1em;
 			width: 100%;
 			// display: flex;
 			// justify-content: space-between;
@@ -230,36 +230,36 @@
 			grid-column: 1/2;
 			grid-row: 1/2;
 		}
-		
+
 		&__links {
 			text-align: left;
 			display: flex;
 			grid-column: 1/2;
 			grid-row: 2/3;
-			
 		}
-		
+
 		&__icons {
 			grid-column: 2/3;
 			grid-row: 1/2;
 			position: absolute;
-			right: 0;	
+			right: 0;
 		}
-				
+
 		&__copyright {
 			text-align: right;
 			color: colors.$gray;
 			grid-column: 2/3;
 			grid-row: 2/3;
 		}
-		
-		&__link, &__copyright {
+
+		&__link,
+		&__copyright {
 			padding: 20px 10px;
 			font-size: 1.5rem;
-			
 		}
-		
-		&__company, &__icons {
+
+		&__company,
+		&__icons {
 			padding: 40px 10px;
 		}
 	}
