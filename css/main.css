@@ -287,6 +287,8 @@ body {
     grid-template-columns: 1fr 3fr;
   }
   .header__company {
+    position: absolute;
+    top: 0;
     font-size: 2.4rem;
     grid-column: 1/2;
     padding: 0 1em;
@@ -295,7 +297,7 @@ body {
     display: inline;
     text-align: right;
     grid-column: 2/3;
-    margin-right: 1.5em;
+    padding-right: 1.5em;
   }
   .nav__desktop-link {
     position: relative;
